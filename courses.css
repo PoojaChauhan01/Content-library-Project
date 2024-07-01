@@ -1,0 +1,47 @@
+.img{
+    height: 400px;
+    width: 700px;
+    float: right;
+}
+#head{
+    font-size: 100px;
+    font-style: italic;
+    color: rgb(209, 55, 236);
+}
+.para{
+    font-size: 50px;
+    font-style: italic;
+    color: darkslategrey;
+}
+/*.course {
+    @include grid(31rem);
+
+    .box{
+    background: gray;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    }
+}*/
+.course{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 50px;
+}
+.box{
+    text-align: center;
+    box-shadow: 0 5px 10 px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+a{
+    background: rgb(209, 55, 236);
+    color: azure;
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,61 @@
+body{
+    background-image: url(edu18.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+#head{
+    text-align: center;
+    font-size: 60px;
+}
+.para{
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 8px;
+    font-style: italic;
+}
+.detail{
+    float: right;
+    top: 20%;
+    right: 20%;
+    position: absolute;
+}
+.box{
+    top: 25%;
+    left: 20%;
+    position: absolute;
+}
+.container{
+    font-size: 30px;
+
+}
+.container a{
+    padding: 50px;
+    color: rgb(31, 33, 33);
+}
+.container p{
+    color: azure;
+}
+.detail input{
+    width: 30rem;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
+.detail h1{
+    color: rgb(31, 33, 33);
+}
+.sumbit{
+    font-size: 20px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(31, 33, 33);
+    color: azure;
+    top: 60%;
+    right: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    
+}

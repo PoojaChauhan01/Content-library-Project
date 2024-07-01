@@ -1,0 +1,66 @@
+img{
+    float: right;
+}
+
+#head{
+    position: absolute;
+    font-size: 100px;
+    top: 15%;
+    left: 15%;
+    color: rgb(103, 126, 227);
+}
+#head2{
+    position: absolute;
+    top: 30%;
+    font-size: 60px;
+    padding: 30px;
+    margin: 30px;
+    word-spacing: 20px;
+    color: rgb(53, 210, 210);
+
+}
+#head3{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 60px;
+    padding: 30px;
+    margin: 30px;
+    word-spacing: 20px;color: rgb(53, 210, 210);
+
+}
+
+.para{
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    font-style: italic;
+    word-spacing:15px;
+    margin: 20px 20px;
+}
+#head4{
+    top: 62%;
+    position: absolute;
+    font-size: 40px; 
+    text-align: center;
+    color:rgb(244, 106, 244);
+    left: 40%;
+}
+.para2{
+    position: absolute;
+    top: 70%;
+    font-size:20px ;
+    font-style: italic;
+    word-spacing:15px;
+    margin: 20px 20px;
+}
+.button{
+    position: absolute;
+    top:90%;
+    left: 45%;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+     background-color : rgb(242, 251, 117);
+     color: black;
+}
