@@ -3,70 +3,134 @@
 <link rel="stylesheet" href="courses.css">
 <title>Courses</title>
     </head>
+
     <body>
         <img class="img" src="edu4.jpg">
 <h1 id="head"> Choose Your Favourite Courses...</h1>
  <p class="para">"Explore our diverse renge of course and find the perfect one to elevate your skills and career today"!. </p>   
-  <section class="course">
+   <div class="search" >
+    <h1> All courses</h1>
+    <input type="text" name="" id="find" placeholder="search here ...." onkeyup="search()">
+   </div>
+ 
+ <section class="course">
     <div class="box">
         <img class="img1" src="edu5.jpeg" width="320px" height="180px">
-        <h3>Web Development</h3>
-        <p>In this course you will learn Full Stack Development.</p>
+        <h3 >Web Development</h3>
+        <p>Learn web development: HTML, CSS, JavaScript, and frameworks for building dynamic, responsive websites</p>
         <a href="#" class="a1">Read more</a>
     </div>
 
     <div class="box">
         <img class="img1" src="edu6.jpeg" width="320px" height="180px">
         <h3>Data Structure</h3>
-        <p>In this course you will learn Basic to advance DSA.</p>
+        <p>Master Data Structures and Algorithms: essential for efficient problem-solving and software development</p>
+
         <a href="#" class="a1">Read more</a>
     </div>
 
     <div class="box">
         <img class="img1" src="edu7.webp" height="180px" width="320px">
         <h3>Computer Sciencee</h3>
-        <p>In this course you will learn ................</p>
+        <p>Computer Science explores computation, algorithms, programming, and the innovative creation of software and systems.</p>
         <a href="#" class="a1">Read more</a>
     </div>
 
     <div class="box">
         <img class="img1" src="edu8.jpeg"width="320px" height="180px"  >
         <h3>Operating System</h3>
-        <p>In this course you will learn Full Stack Development.</p>
+        <p>Explore Operating Systems: principles, process management, memory, file systems, and system performance optimization.</p>
         <a href="#" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu9.jpeg" width="320px" height="180px">
         <h3>Math and Stastics</h3>
-        <p>In this course you will learn Full Stack Development.</p>
+        <p>Essential for data analysis, modeling, algorithms, and problem-solving in various fields.</p>
         <a href="#" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu10.jpeg">
-        <h3>Operating System</h3>
-        <p>In this course you will learn Full Stack Development.</p>
+        <h3>Data Science </h3>
+        <p>Learn Data Science: analyze data, derive insights, build models, and make data-driven decisions effectively.</p>
         <a href="#" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu11.jpeg">
         <h3>Python</h3>
-        <p>In this course you will learn Full Stack Development.</p>
+        <p>Python Course: Master programming fundamentals, data analysis, web development, and automation with Python language.</p>
         <a href="python.html" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu12.jpeg">
-        <h3>Operating System</h3>
-        <p>In this course you will learn Full Stack Development.</p>
+        <h3>Java</h3>
+        <p>Java: a versatile programming language for building robust, secure applications across platforms.</p>
         <a href="#" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu14.jpeg">
-        <h3>Operating System</h3>
-        <p>In this course you will learn Full Stack Development.</p>
+        <h3>software Engineering</h3>
+        <p>Software Engineering: Designing, developing, testing, and maintaining software systems for functionality and efficiency.</p>
         <a href="#" class="a1">Read more</a>
     </div>
-
   </section>
+  <h1 id="add"> You can also add your courses.</h1>
+  <main>
+    <section id="add-course">
+        <h2>Add New Course</h2>
+        <form id="course-form">
+            <label for="course-name">Course Name:</label>
+            <input type="text" id="course-name" name="course-name" required>
+            <label for="course-description">Description:</label>
+            <textarea id="course-description" name="course-description"></textarea>
+            <button type="submit">Add Course</button>
+        </form>
+    </section>
+    <section id="add-module">
+        <h2>Add New Module</h2>
+        <form id="module-form">
+            <label for="module-name">Module Name:</label>
+            <input type="text" id="module-name" name="module-name" required>
+            <label for="module-description">Description:</label>
+            <textarea id="module-description" name="module-description"></textarea>
+            <button type="submit">Add Module</button>
+        </form>
+    </section>
 
+    <section id="map-facilities-students">
+        <h2>Map Facilities and Students</h2>
+        <form id="map-form">
+            <!-- Form fields for mapping facilities and students -->
+            <button type="submit">Map</button>
+        </form>
+    </section>
+</main>
+<br><br><br><br>
+
+<footer>
+    <p>&copy; 2024 Content Library website. All rights reserved.</p>
+</footer>
+<div class="container">
+    <h1>Content Scheduler</h1>
+    <form id="contentForm">
+        <label for="title">Content Title:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        
+        <label for="publishDate">Publish Date:</label>
+        <input type="date" id="publishDate" name="publishDate" required>
+        
+        <button type="submit">Schedule Content</button>
+    </form>
+
+    <h2>Scheduled Contents</h2>
+    <ul id="scheduledContents"></ul>
+</div>
+<script src="scripts.js"></script> 
 </body>
 </html>
+
+
+
+
