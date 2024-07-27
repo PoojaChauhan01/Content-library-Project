@@ -1,0 +1,56 @@
+#head{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+#head2{
+    font-size: 40px;
+    font-style: italic;
+    margin: 20px;
+    
+}
+.img{
+    float: right;
+    padding: 50px;
+}
+body{
+    background-color: rgb(210, 245, 234);
+}
+iframe{
+   margin: 50px;
+}
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.visible {
+    opacity: 1;
+}
+button{
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    margin: 40px;
+    border-radius: 10px;
+
+}
+#animatedElement{
+    font-size: 30px;
+    font-style: italic;
+}
+#anchor{
+    font-size:30px ;
+    margin: 20px;
+}
+.head{
+    font-size: 20px;
+    word-spacing: 10px;
+}
+#head3{
+    margin: 20px;
+    font-size: 30px;
+}

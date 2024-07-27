@@ -171,3 +171,43 @@ li {
     padding: 10px;
     border-radius: 4px;
 }
+/* search box*/
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.custom-select {
+    position: relative;
+    width: 800px;
+    margin: 20px;
+    
+}
+
+#searchBox {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: #3c3a3a;
+}
+
+.options-container {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #f1f1f1;
+}

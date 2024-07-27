@@ -8,51 +8,61 @@
         <img class="img" src="edu4.jpg">
 <h1 id="head"> Choose Your Favourite Courses...</h1>
  <p class="para">"Explore our diverse renge of course and find the perfect one to elevate your skills and career today"!. </p>   
-   <div class="search" >
-    <h1> All courses</h1>
-    <input type="text" name="" id="find" placeholder="search here ...." onkeyup="search()">
-   </div>
+ <div class="custom-select">
+    <input type="text" id="searchBox" placeholder="Search here.........">
+    <div id="optionsContainer" class="options-container">
+        <div class="option">Web development</div>
+        <div class="option">Data Structure</div>
+        <div class="option">Oops</div>
+        <div class="option">Operating System</div>
+        <div class="option">Math and Staticts</div>
+        <div class="option">Data science</div>
+        <div class="option">Python</div>
+        <div class="option">Java</div>
+        <div class="option">Software Engineering</div>
+        <!-- Add more options as needed -->
+    </div>
+</div>
  
  <section class="course">
     <div class="box">
         <img class="img1" src="edu5.jpeg" width="320px" height="180px">
         <h3 >Web Development</h3>
         <p>Learn web development: HTML, CSS, JavaScript, and frameworks for building dynamic, responsive websites</p>
-        <a href="#" class="a1">Read more</a>
+        <a href="web.html" class="a1">Read more</a>
     </div>
 
     <div class="box">
         <img class="img1" src="edu6.jpeg" width="320px" height="180px">
         <h3>Data Structure</h3>
         <p>Master Data Structures and Algorithms: essential for efficient problem-solving and software development</p>
-
-        <a href="#" class="a1">Read more</a>
+        <a href="dataStruct.html" class="a1">Read more</a>
     </div>
 
     <div class="box">
         <img class="img1" src="edu7.webp" height="180px" width="320px">
-        <h3>Computer Sciencee</h3>
-        <p>Computer Science explores computation, algorithms, programming, and the innovative creation of software and systems.</p>
-        <a href="#" class="a1">Read more</a>
+        <h3>Oop</h3>
+        <p>Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which contain data and methods.</p>
+        <a href="oop.html" class="a1">Read more</a>
     </div>
 
     <div class="box">
         <img class="img1" src="edu8.jpeg"width="320px" height="180px"  >
         <h3>Operating System</h3>
         <p>Explore Operating Systems: principles, process management, memory, file systems, and system performance optimization.</p>
-        <a href="#" class="a1">Read more</a>
+        <a href="operating.html" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu9.jpeg" width="320px" height="180px">
         <h3>Math and Stastics</h3>
         <p>Essential for data analysis, modeling, algorithms, and problem-solving in various fields.</p>
-        <a href="#" class="a1">Read more</a>
+        <a href="math.html" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu10.jpeg">
         <h3>Data Science </h3>
         <p>Learn Data Science: analyze data, derive insights, build models, and make data-driven decisions effectively.</p>
-        <a href="#" class="a1">Read more</a>
+        <a href="dataSci.html" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu11.jpeg">
@@ -64,13 +74,13 @@
         <img class="img1" src="edu12.jpeg">
         <h3>Java</h3>
         <p>Java: a versatile programming language for building robust, secure applications across platforms.</p>
-        <a href="#" class="a1">Read more</a>
+        <a href="java.html" class="a1">Read more</a>
     </div>
     <div class="box">
         <img class="img1" src="edu14.jpeg">
         <h3>software Engineering</h3>
         <p>Software Engineering: Designing, developing, testing, and maintaining software systems for functionality and efficiency.</p>
-        <a href="#" class="a1">Read more</a>
+        <a href="software.html" class="a1">Read more</a>
     </div>
   </section>
   <h1 id="add"> You can also add your courses.</h1>
@@ -127,7 +137,7 @@
     <h2>Scheduled Contents</h2>
     <ul id="scheduledContents"></ul>
 </div>
-<script src="scripts.js"></script> 
+<script src="courses.js"></script> 
 </body>
 </html>
 

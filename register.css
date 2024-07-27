@@ -10,9 +10,10 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url(edu16.webp.crdownload);
+    background: url('edu24.webp.crdownload');
     background-size: cover;
 }
+
 
 .container{
     width: 100%;

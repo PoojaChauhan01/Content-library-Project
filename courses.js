@@ -37,7 +37,7 @@ document.getElementById('contentForm').addEventListener('submit', function(e) {
         alert('Please fill out all fields.');
     }
 });
-/**search box */
+/**search box 
  function search() {
     let filter = document.getElementById('find').value.toUpperCase();
     let item= document.querySelectorAll('.box');
@@ -52,4 +52,39 @@ document.getElementById('contentForm').addEventListener('submit', function(e) {
         item[i].style.display="none";
       }
     }
-}
+}*/
+/**/ 
+document.addEventListener('DOMContentLoaded', function () {
+    const searchBox = document.getElementById('searchBox');
+    const optionsContainer = document.getElementById('optionsContainer');
+    const options = optionsContainer.querySelectorAll('.option');
+
+    // Show options when the search box is focused
+    searchBox.addEventListener('focus', () => {
+        optionsContainer.style.display = 'block';
+    });
+
+    // Filter options based on search input
+    searchBox.addEventListener('input', () => {
+        const filter = searchBox.value.toLowerCase();
+        options.forEach(option => {
+            const text = option.textContent.toLowerCase();
+            option.style.display = text.includes(filter) ? '' : 'none';
+        });
+    });
+
+    // Hide options when clicking outside
+    document.addEventListener('click', (event) => {
+        if (!searchBox.contains(event.target) && !optionsContainer.contains(event.target)) {
+            optionsContainer.style.display = 'none';
+        }
+    });
+
+    // Select an option
+    options.forEach(option => {
+        option.addEventListener('click', () => {
+            searchBox.value = option.textContent;
+            optionsContainer.style.display = 'none';
+        });
+    });
+});
